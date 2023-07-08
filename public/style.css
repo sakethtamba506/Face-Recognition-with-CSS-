@@ -1,0 +1,83 @@
+#cam{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+}
+#box
+{
+    border-style:solid;
+    border-color:black;
+    width:400px;
+    height:250px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    text-align:center;
+    padding:5%;
+   background-color: lightgray;
+}
+#box-ok
+{
+    border-style:solid;
+    border-color:black;
+    width:300px;
+    height:100px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    text-align:center;
+    padding:5%;
+    background-color:lightgray;
+}
+
+#submitbutton
+{
+    box-sizing:border-box;
+    width:250px;
+    height:35px;
+    background-color: chartreuse;
+    font-weight: bold;
+    margin-bottom:25px;
+}
+
+#file
+{
+    width:250px;
+    height:30px;
+    margin-bottom:25px;
+}
+#name
+{
+    width:250px;
+    height:30px;
+    margin-bottom:25px;
+}
+#firstpage
+{
+    font-weight: bold;
+    margin:auto;
+    text-align:center;
+    padding: auto;
+    padding-top: 120px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

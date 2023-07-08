@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add face</title>
+
+    <script defer src="controller.js" ></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body style="background-color: darkgray;">
+    <div id="box">
+        <form action="/addstudent" method="post" enctype="multipart/form-data">
+            <label for="name" id="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+          
+            <label for="file" id="file">File: </label>
+            <input type="file" id="file" name="file" required>
+          
+            
+            <button id="submitbutton" type="submit">SUBMIT</button>
+        </form>
+            <a href="index.html"><button id="submitbutton" type="submit">GO BACK</button></a>
+        
+        
+        </div>
+</body>
+</html>
